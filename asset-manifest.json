@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Portfolio-app/static/css/main.e5b57b31.css",
+    "main.js": "/Portfolio-app/static/js/main.35694cba.js",
+    "static/media/Expense-Tracker-1.png": "/Portfolio-app/static/media/Expense-Tracker-1.f6a3e8055f1b9b3ac411.png",
+    "index.html": "/Portfolio-app/index.html",
+    "main.e5b57b31.css.map": "/Portfolio-app/static/css/main.e5b57b31.css.map",
+    "main.35694cba.js.map": "/Portfolio-app/static/js/main.35694cba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5b57b31.css",
+    "static/js/main.35694cba.js"
+  ]
+}
