@@ -2,9 +2,7 @@ import React from "react";
 import portfolios from "../../asset/data/portfolioData";
 
 const Modal = ({ activeID, setShowModal }) => {
-  console.log("activeID from Modal : " + activeID);
   const portfolio = portfolios.find((portfolio) => portfolio.id === activeID);
-  console.log(portfolio);
 
   if (!portfolio) {
     return null;
@@ -14,54 +12,56 @@ const Modal = ({ activeID, setShowModal }) => {
     setShowModal(false);
   };
 
-  
-
   return (
-    <div className="w-full h-full fixed top-0 left-0 z-10 bg-headingColor bg-opacity-40">
-      <div className="max-w-[700px] absolute top-1/2 left-1/2 z-20 bg-white rounded-[8px] transform -translate-x-1/2 -translate-y-1/2 p-5">
-        <div>
-          <figure>
-            <img
-              className="rounded-[8px] "
-              src={portfolio.imageURL}
-              alt="Portfolio"
-            />
-          </figure>
+    <div className="fixed inset-0 z-50 overflow-y-auto">
+      <div className="flex items-center justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+        <div className="fixed inset-0 transition-opacity" aria-hidden="true">
+          <div className="absolute inset-0 bg-gray-500 opacity-75"></div>
         </div>
 
-        <div>
-          <h2 className="text-2xl text-headinfColor font-[700] my-5">
-            {portfolio.title}
-          </h2>
-          <p className="text-[15px] leading-7 text-smallTextColor">
-            {portfolio.description}
-          </p>
-          <div className="mt-5 flex items-center gap-3 flex-wrap">
-            <h4 className="text-headingColor text-[18px] text-[700]">
-              Technologies :
-            </h4>
-            {portfolio.technologies.map((item, index) => (
-              <span
-                key={index}
-                className="bg-gray-200 py-1 px-2 rounded-[5px] mr-2 text-[14px] leading-0"
-              >
-                {item}
-              </span>
-            ))}
-          </div>
+        <span className="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
 
-          <a href={portfolio.siteURL}>
-            <button className="bg-primaryColor text-white py-2 px-4 my-8 rounded-[8px] font-500] hover:bg-headingColor ease-in diration-300">
-              Live Site
+        <div className="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
+          <div className="bg-white p-6">
+            <div>
+              <figure>
+                <img
+                  className="rounded-lg"
+                  src={portfolio.imageURL}
+                  alt="Portfolio"
+                />
+              </figure>
+            </div>
+
+            <div>
+              <h2 className="text-2xl font-bold my-5">{portfolio.title}</h2>
+              <p className="text-sm leading-7 text-gray-600">{portfolio.description}</p>
+              <div className="mt-5 flex items-center gap-3 flex-wrap">
+                <h4 className="text-gray-700 text-sm font-bold">Technologies:</h4>
+                {portfolio.technologies.map((item, index) => (
+                  <span
+                    key={index}
+                    className="bg-gray-200 py-1 px-2 rounded text-sm text-gray-800"
+                  >
+                    {item}
+                  </span>
+                ))}
+              </div>
+
+              <a href={portfolio.siteURL}>
+                <button className="bg-primaryColor text-white py-2 px-4 my-8 rounded font-semibold hover:bg-headingColor duration-300">
+                  Live Site
+                </button>
+              </a>
+            </div>
+            <button
+              className="absolute top-0 right-0 m-3 bg-white rounded-full text-gray-600 hover:text-gray-800 focus:outline-none"
+              onClick={() => handleCancel()}
+            >
+              &times;
             </button>
-          </a>
+          </div>
         </div>
-        <button
-          className="w-[1.8rem] h-[1.8rem] bg-[white] absolute top-[1.7rem] right-[1.7rem] text-[25px] flex items-center justify-content justify-center rounded-[3px] leading-0 cursor-pointer"
-          onClick={() => handleCancel()}
-        >
-          &times;
-        </button>
       </div>
     </div>
   );

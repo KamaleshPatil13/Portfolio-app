@@ -30,10 +30,10 @@ const Footer = () => {
               <span className="text-gray-300 font-semibold text-sm">
                 Follow Me:
               </span>
-              <a href="#" className="text-gray-300 font-semibold text-sm">
+              <a href="https://www.linkedin.com/in/kamalesh-patil/" className="text-gray-300 font-semibold text-sm">
                 LinkedIn
               </a>
-              <a href="#" className="text-gray-300 font-semibold text-sm">
+              <a href="https://github.com/KamaleshPatil13" className="text-gray-300 font-semibold text-sm">
                 Github
               </a>
             </div>
