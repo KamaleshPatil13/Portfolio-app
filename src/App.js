@@ -14,15 +14,15 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div >
       <Header />
-      <main>
+      <main className="lg:p-[40px]">
         <Hero />
         <Portfolio />
         <Contact />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
 

@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
-    <footer className="bg-[#12141e] pt-3  flex justify-center">
+    <footer className="bg-[#12141e] pt-3  flex justify-center lg:px-[40px]">
       {/*========================header-top-start================= */}
       <div className="container">
         <div className="sm:flex items-center justify-between md:gap-8">
