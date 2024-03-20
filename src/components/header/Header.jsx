@@ -3,9 +3,9 @@ import React from "react";
 const Header = () => {
   return (
     <header className="w-full h-[80px] leading-[80px] flex justify-center">
-      <div className="container flex justify-between items-center">
+      <div className="container flex justify-between items-center ">
         {/*========================logo-start================= */}
-        <div className="flex items-center gap-[10px]">
+        <div className="flex items-center gap-[10px] sm: ms-3">
           <span className="w-[35px] h-[35px] bg-primaryColor text-white text-[18px] font-[500] rounded-full flex items-center justify-center ">
             M
           </span>

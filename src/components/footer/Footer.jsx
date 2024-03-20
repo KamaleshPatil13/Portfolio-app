@@ -53,7 +53,7 @@ const Footer = () => {
                   <p className="text-gray-400 text-sm">Personal</p>
                 </div>
               </div>
-              <div className="text-gray-400 text-sm">
+              <div className="text-gray-400 text-sm sm: text-center">
                 Copyright {year} developed by Kamalesh - All rights reserved.
               </div>
             </div>

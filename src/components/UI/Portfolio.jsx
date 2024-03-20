@@ -31,7 +31,7 @@ const Portfolio = () => {
                   className="group max-w-full sm:w-[48.5%] md:w-[31.8%] lg:w-[32.2%] relative z-[1] flex-shrink-0"
                   key={specificData.id}
                 >
-                  <figure>
+                  <figure className="sm: mx-2">
                     <img
                       className="rounded-[8px]"
                       src={specificData.imageURL}

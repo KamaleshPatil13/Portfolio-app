@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="pt-0 flex justify-center items-center" id="about">
       <div className="container pt-14">
-        <div className="md:flex items-center justify-center sm:flex-col md:flex-row">
+        <div className="md:flex items-center justify-center sm:flex-col md:flex-row lg: mb-10">
           {/*========================hero-left-content================= */}
           <div className="w-full md:w-1/2 sm:ml-2">
             <h5
@@ -45,7 +45,7 @@ const Hero = () => {
               <p
                 data-aos="fade-up"
                 data-aos-duration="1800"
-                className="flex gap-2 text-headingColor font-medium text-[15px] leading-7 sm:text-left"
+                className="flex gap-2 text-headingColor font-medium text-[15px] leading-7 lg:me-[30px] sm:text-justify me-[0] "
               >
                 <span>
                   <i class="ri-app-3-line"> </i>
@@ -79,7 +79,7 @@ const Hero = () => {
           {/*========================hero-img================= */}
 
           <div className="w-full sm:w-1/2 mt-10 sm:mt-0 flex justify-center">
-            <figure>
+            <figure className="mx-2">
               <img
                 src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?w=996&t=st=1710589339~exp=1710589939~hmac=c04ed5c11ceeac3c96aacbdee465b0f131940b309cf7532e6b983ac6b32e11fe"
                 alt=""
@@ -89,29 +89,28 @@ const Hero = () => {
           </div>
 
           {/*========================hero-img-end================= */}
-
-          {/*========================hero-content-right================= */}
-          <div className="mt-8 md:mt-0 md:ml-4">
-            <div className="flex justify-center md:justify-between text-center flex-wrap gap-4 md:flex-col md:justify-end md:text-right sm:text-left">
-              <div>
-                <h2 className="text-headingColor font-semibold text-[32px]">
-                  2+
-                </h2>
-                <h4 className="text-smallTextColor">Year of experience</h4>
-              </div>
-            </div>
-            <div className="flex justify-center md:justify-between text-center flex-wrap gap-4 md:flex-col md:justify-end md:text-right mt-4">
-              <div>
-                <h2 className="text-headingColor font-semibold text-[32px]">
-                  2+
-                </h2>
-                <h4 className="text-smallTextColor">Projects Completed</h4>
-              </div>
+        </div>
+        {/*========================hero-content-right================= */}
+        <div className="sm:mt-8 md:mt-0 md:ml-4 lg:flex justify-center lg:gap-[500px] ">
+          <div className="flex justify-center md:justify-between text-center flex-wrap gap-4 md:flex-col  md:justify-end md:text-right sm:text-left">
+            <div className="text-center">
+              <h2 className="text-headingColor font-semibold text-[32px]">
+                2+
+              </h2>
+              <h4 className="text-smallTextColor">Year of experience</h4>
             </div>
           </div>
-
-          {/*========================hero-content-right-end================= */}
+          <div className="flex justify-center md:justify-between text-center flex-wrap gap-4 md:flex-col md:justify-end md:text-right">
+            <div className="text-center">
+              <h2 className="text-headingColor font-semibold text-[32px]">
+                2+
+              </h2>
+              <h4 className="text-smallTextColor">Projects Completed</h4>
+            </div>
+          </div>
         </div>
+
+        {/*========================hero-content-right-end================= */}
       </div>
     </section>
   );
