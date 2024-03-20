@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio-app/static/css/main.195d13e8.css",
-    "main.js": "/Portfolio-app/static/js/main.c59764e4.js",
+    "main.css": "/Portfolio-app/static/css/main.9ce0bb8d.css",
+    "main.js": "/Portfolio-app/static/js/main.df616781.js",
     "static/media/Expense-Tracker-1.png": "/Portfolio-app/static/media/Expense-Tracker-1.f6a3e8055f1b9b3ac411.png",
     "index.html": "/Portfolio-app/index.html",
-    "main.195d13e8.css.map": "/Portfolio-app/static/css/main.195d13e8.css.map",
-    "main.c59764e4.js.map": "/Portfolio-app/static/js/main.c59764e4.js.map"
+    "main.9ce0bb8d.css.map": "/Portfolio-app/static/css/main.9ce0bb8d.css.map",
+    "main.df616781.js.map": "/Portfolio-app/static/js/main.df616781.js.map"
   },
   "entrypoints": [
-    "static/css/main.195d13e8.css",
-    "static/js/main.c59764e4.js"
+    "static/css/main.9ce0bb8d.css",
+    "static/js/main.df616781.js"
   ]
 }
