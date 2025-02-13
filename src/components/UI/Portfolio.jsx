@@ -35,7 +35,7 @@ const Portfolio = () => {
                     <img
                       className="rounded-[8px]"
                       src={specificData.imageURL}
-                      alt=""
+                      alt={specificData.title}
                     />
                   </figure>
                   <div className="w-full h-full bg-primaryColor bg-opacity-40 absolute top-0 left-0 z-[5] hidden group-hover:block">

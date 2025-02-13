@@ -24,7 +24,7 @@ const Header = () => {
         <nav className="hidden sm:flex">
           <ul className="flex item-center gap-10">
             <li className="text-smallTextColor font-[600]">
-              <a href="#about">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li className="text-smallTextColor font-[600]">
               <a href="#services">Services</a>

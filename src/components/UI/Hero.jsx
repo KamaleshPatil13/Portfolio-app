@@ -50,10 +50,12 @@ const Hero = () => {
                 <span>
                   <i class="ri-app-3-line"> </i>
                 </span>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                React Front End Developer with specializing in HTML, CSS
+                ,TailWind CSS, JavaScript, React, Router, TypeScript, Git and
+                Redux. Developing responsive web applications, optimizing user
+                experience, and ensuring code quality. Strong knowledge of
+                front-end frameworks and version control, delivering efficient
+                and visually appealing solutions.
               </p>
             </div>
 
@@ -81,7 +83,7 @@ const Hero = () => {
           <div className="w-full sm:w-1/2 mt-10 sm:mt-0 flex justify-center">
             <figure className="mx-2">
               <img
-                src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?w=996&t=st=1710589339~exp=1710589939~hmac=c04ed5c11ceeac3c96aacbdee465b0f131940b309cf7532e6b983ac6b32e11fe"
+                src="https://i.ibb.co/RWypBP1/Profilr-Photo-2.jpg"
                 alt=""
                 className="rounded-2xl"
               />
@@ -95,7 +97,7 @@ const Hero = () => {
           <div className="flex justify-center md:justify-between text-center flex-wrap gap-4 md:flex-col  md:justify-end md:text-right sm:text-left">
             <div className="text-center">
               <h2 className="text-headingColor font-semibold text-[32px]">
-                2+
+                4+
               </h2>
               <h4 className="text-smallTextColor">Year of experience</h4>
             </div>
@@ -103,7 +105,7 @@ const Hero = () => {
           <div className="flex justify-center md:justify-between text-center flex-wrap gap-4 md:flex-col md:justify-end md:text-right">
             <div className="text-center">
               <h2 className="text-headingColor font-semibold text-[32px]">
-                2+
+                8+
               </h2>
               <h4 className="text-smallTextColor">Projects Completed</h4>
             </div>

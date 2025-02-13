@@ -20,20 +20,28 @@ const Footer = () => {
 
           <div className="w-full sm:w-1/2">
             <p className="text-gray-300 leading-7 text-center sm:text-left">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              React Front End Developer with specializing in HTML, CSS ,TailWind
+              CSS, JavaScript, React, Router, TypeScript, Git and Redux.
+              Developing responsive web applications, optimizing user
+              experience, and ensuring code quality. Strong knowledge of
+              front-end frameworks and version control, delivering efficient and
+              visually appealing solutions.
             </p>
 
             <div className="flex items-center justify-center sm:justify-start gap-4 mt-4">
               <span className="text-gray-300 font-semibold text-sm">
                 Follow Me:
               </span>
-              <a href="https://www.linkedin.com/in/kamalesh-patil/" className="text-gray-300 font-semibold text-sm">
+              <a
+                href="https://www.linkedin.com/in/kamalesh-patil/"
+                className="text-gray-300 font-semibold text-sm"
+              >
                 LinkedIn
               </a>
-              <a href="https://github.com/KamaleshPatil13" className="text-gray-300 font-semibold text-sm">
+              <a
+                href="https://github.com/KamaleshPatil13"
+                className="text-gray-300 font-semibold text-sm"
+              >
                 Github
               </a>
             </div>
