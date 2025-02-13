@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio-app/static/css/main.9ce0bb8d.css",
-    "main.js": "/Portfolio-app/static/js/main.475c7f04.js",
+    "main.css": "/Portfolio-app/static/css/main.894196d9.css",
+    "main.js": "/Portfolio-app/static/js/main.745ef328.js",
     "static/media/Expense-Tracker-1.png": "/Portfolio-app/static/media/Expense-Tracker-1.f6a3e8055f1b9b3ac411.png",
     "static/media/cypress-testing.png": "/Portfolio-app/static/media/cypress-testing.ba693de1ba64b0274219.png",
     "static/media/Dashboard.png": "/Portfolio-app/static/media/Dashboard.dfad2c05f91c9b9b3b48.png",
     "static/media/crud-app1.png": "/Portfolio-app/static/media/crud-app1.db83f7bf95c53742a5c1.png",
     "index.html": "/Portfolio-app/index.html",
-    "main.9ce0bb8d.css.map": "/Portfolio-app/static/css/main.9ce0bb8d.css.map",
-    "main.475c7f04.js.map": "/Portfolio-app/static/js/main.475c7f04.js.map"
+    "main.894196d9.css.map": "/Portfolio-app/static/css/main.894196d9.css.map",
+    "main.745ef328.js.map": "/Portfolio-app/static/js/main.745ef328.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ce0bb8d.css",
-    "static/js/main.475c7f04.js"
+    "static/css/main.894196d9.css",
+    "static/js/main.745ef328.js"
   ]
 }
